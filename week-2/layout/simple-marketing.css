@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body, div, header, section, footer{
+    display: block;    
+    text-align: center;
+}
+header, section, footer{
+    padding: 5px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+header{
+    border: 5px solid black;
+}
+.second-row{
+    float:left;
+    width: 49%;
+
+}
+.third-row section{
+    clear: left;
+    float:right;
+    width: 32.4%;
+}
+
+footer{
+    clear:both;
+    height:50px;
+}
