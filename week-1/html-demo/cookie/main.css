@@ -1,0 +1,27 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #FFE;
+	text-align: center;
+}
+a{
+	color: #900
+}
+img{
+	border: solid 5px black;
+}
+h1, h2, h3, p, li{
+	padding: 5px;
+	font-family: courier;
+}
+#how{
+	color:#887;
+}
+ul{
+	list-style: circle;
+}
+ol{
+	list-style: arabic-indic;
+}
