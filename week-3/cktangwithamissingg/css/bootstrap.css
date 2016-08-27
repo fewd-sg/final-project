@@ -6755,3 +6755,11 @@ button.close {
 /*# sourceMappingURL=bootstrap.css.map */
 
 
+@media (max-width:1024px) { .img-responsive {display:block; float:none; margin-right:0;} }
+
+ @media (min-width:1025px) {
+
+ .img-responsive {display:inline; float:left; margin-right:15px;}
+
+
+}
