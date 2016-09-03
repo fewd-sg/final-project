@@ -27,6 +27,21 @@ Developer @GA in NYC
      height: 0;
 }
 
+body {
+     background-color: #f0efef;
+     font-family: 'Open Sans', sans-serif;
+     line-height: 1.8;
+}
+
+.button.getitnow
+{
+  background-color: #f9e42e;
+  margin: 100px 0px 0px 350px;
+  color: #033048;
+  font-size: 14px;
+  font-weight: 800;
+}
+
 .clear {
   clear: both;
 }
@@ -39,6 +54,28 @@ Developer @GA in NYC
 .alignleft {
   float: left;
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+.benefits{
+  padding: 100px;
+}
+
+.benefits h2{
+  font-size: 20px;
+  font-weight: 600px;
+  color: #033048;
+}
+
+.benefits p, .benefits ul{
+  font-size: 13px;
+  font-weight: 300px;
+  max-width: 380px;
+    color: #033048;/*create a width so that the text can transform into two lines*/
+}
+
+
+.benefits ul{
+  margin: 30px 0 0 30px;
 }
 
 /******************************************
@@ -91,13 +128,46 @@ header h2 {
   text-align: center;
 }
 
-footer {
+.testimony p {
+  text-align: center;
+}
+
+.testimony p h2 {
+  text-align: center;
+}
+.signupnow{
+  background-color: #F4FA58;
+  padding: 20px 0;
+}
+
+.button.signupnow{
+  background-color: #033048;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 800;
+  margin: 0 auto;
+}
+
+
+footer
+{
+  background-color: #2E2E2E;
+  padding: 50px 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+footer p {
+  font-size: 9px;
+  font-weight: 600;
+  padding-top: 10px;
 
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+footer h2 {
+color: #F4FA58;
+}
 .benefits{
   background-color: white;
 }

@@ -1,6 +1,10 @@
 header {background-color: #033048;
 color:#f9e42e;}
 
+body {
+font-family: 'Open Sans';  
+
+}
 h1 {
   color: white;
 float: left;
@@ -8,6 +12,9 @@ float: left;
 
 nav {
   float: right;
+  font-weight: bold;
+  font size: 24px;
+
 }
 
 nav ul {
